@@ -16,7 +16,7 @@ public class Reviews {
     }
 
     public String getContent() {
-        if (content.length() >= 200) {
+        if (content.length() >= 300) {
             return content.substring(0, 301) + "...";
         } else {
             return content.trim();
