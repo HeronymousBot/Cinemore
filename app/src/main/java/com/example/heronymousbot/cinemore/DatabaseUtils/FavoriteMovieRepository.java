@@ -4,17 +4,13 @@ import android.app.Application;
 import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
 
-import com.example.heronymousbot.cinemore.DatabaseUtils.FavoriteMovie;
-import com.example.heronymousbot.cinemore.DatabaseUtils.FavoriteMovieDao;
-import com.example.heronymousbot.cinemore.DatabaseUtils.FavoriteMovieDatabase;
-
 import java.util.List;
 
 public class FavoriteMovieRepository {
 
     private FavoriteMovieDao favoriteMovieDao;
     private LiveData<List<FavoriteMovie>> allFavoriteMovies;
-    private String foundById;
+
 
 
     public FavoriteMovieRepository(Application application) {

@@ -2,16 +2,11 @@ package com.example.heronymousbot.cinemore;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
-import android.content.Context;
 import android.content.Intent;
-import android.net.ConnectivityManager;
-import android.os.AsyncTask;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.arch.lifecycle.LiveData;
 import android.support.v7.widget.GridLayoutManager;
-
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,16 +15,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.heronymousbot.cinemore.AdaptersUtils.FavoritesAdapter;
-import com.example.heronymousbot.cinemore.AdaptersUtils.MovieAdapter;
-import com.example.heronymousbot.cinemore.ClassesUtils.Films;
-import com.example.heronymousbot.cinemore.ClassesUtils.Reviews;
 import com.example.heronymousbot.cinemore.DatabaseUtils.FavoriteMovie;
-import com.example.heronymousbot.cinemore.NetworkUtils.MainQueryUtils;
 
-import org.w3c.dom.Text;
-
-import java.net.URL;
-import java.util.ArrayList;
 import java.util.List;
 
 

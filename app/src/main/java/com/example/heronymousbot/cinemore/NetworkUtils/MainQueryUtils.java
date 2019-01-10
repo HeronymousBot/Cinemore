@@ -4,7 +4,6 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import com.example.heronymousbot.cinemore.ClassesUtils.Films;
-import com.example.heronymousbot.cinemore.DatabaseUtils.FavoriteMovie;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -14,7 +13,6 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class MainQueryUtils {

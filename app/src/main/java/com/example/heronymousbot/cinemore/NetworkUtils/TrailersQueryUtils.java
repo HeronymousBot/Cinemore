@@ -3,8 +3,6 @@ package com.example.heronymousbot.cinemore.NetworkUtils;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.example.heronymousbot.cinemore.ClassesUtils.Films;
-import com.example.heronymousbot.cinemore.ClassesUtils.Reviews;
 import com.example.heronymousbot.cinemore.ClassesUtils.Trailers;
 
 import org.json.JSONArray;

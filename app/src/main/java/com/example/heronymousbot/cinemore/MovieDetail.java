@@ -5,9 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.AsyncTask;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -21,12 +20,9 @@ import android.widget.Toast;
 import com.example.heronymousbot.cinemore.AdaptersUtils.MovieAdapter;
 import com.example.heronymousbot.cinemore.AdaptersUtils.ReviewAdapter;
 import com.example.heronymousbot.cinemore.AdaptersUtils.TrailerAdapter;
-import com.example.heronymousbot.cinemore.ClassesUtils.Films;
 import com.example.heronymousbot.cinemore.ClassesUtils.Reviews;
 import com.example.heronymousbot.cinemore.ClassesUtils.Trailers;
 import com.example.heronymousbot.cinemore.DatabaseUtils.FavoriteMovie;
-import com.example.heronymousbot.cinemore.NetworkUtils.MainNetworkUtils;
-import com.example.heronymousbot.cinemore.NetworkUtils.MainQueryUtils;
 import com.example.heronymousbot.cinemore.NetworkUtils.ReviewQueryUtils;
 import com.example.heronymousbot.cinemore.NetworkUtils.SpecificNetworkUtils;
 import com.example.heronymousbot.cinemore.NetworkUtils.TrailersQueryUtils;
@@ -51,7 +47,7 @@ public class MovieDetail extends AppCompatActivity {
     private ReviewAdapter mReviewAdapter;
     private TrailerAdapter mTrailerAdapter;
     private FavoriteMovieViewModel mFavoriteMovieViewModel;
-    FavoriteMovie mFavoriteMovie;
+    private FavoriteMovie mFavoriteMovie;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

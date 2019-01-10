@@ -1,12 +1,9 @@
 package com.example.heronymousbot.cinemore.DatabaseUtils;
 
-import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
-import android.os.AsyncTask;
-import android.support.annotation.NonNull;
 
 @Database(entities = FavoriteMovie.class, version = 1, exportSchema = false)
 public abstract class FavoriteMovieDatabase extends RoomDatabase {
